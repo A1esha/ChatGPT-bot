@@ -2,10 +2,11 @@ import telebot
 from telebot import types
 import openai
 
-TOKEN = "5135547093:AAHyax-Q1QGlgZ_4hVnEkF02ElVy9D40Dug" # Токен бота в телеграме
+TOKEN = "your token" # Token of the telegram bote
+
 bot = telebot.TeleBot(TOKEN)
 
-openai.api_key = "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"# Токен ChatGPT
+openai.api_key = "Your token"# Token ChatGPT
 
 lang = 0 ### When we have 0 information in out bot will be on english, if 1 - on russian
 
