@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import openai
 
-TOKEN = "your token" # Token of the telegram bote
+TOKEN = "your token" # Token of the telegram bot
 
 bot = telebot.TeleBot(TOKEN)
 
